@@ -164,22 +164,5 @@ def chat(message, history):
     return response.choices[0].message.content
 ```
 
-**Flow:**
+<img width="638" height="640" alt="image" src="https://github.com/user-attachments/assets/bc4b56c7-51cd-481d-9fef-91ae96f94466" />
 
-User types question
-
-↓
-
-AI decides if it needs a tool
-
-↓
-
-Tool runs and fetches price from DB
-
-↓
-
-Result sent back to AI
-
-↓
-
-AI gives final answer to use
